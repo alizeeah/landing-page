@@ -1,0 +1,32 @@
+.banner {
+	height: 100vh;
+	background-image: url("../images/banner.jpg");
+	background-size:  cover;
+	background-position:  center;
+	color: white;
+	display:  flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:  center;
+	text-align: center;
+}
+.banner h1, .banner h2{
+	text-shadow: 1px 1px 1px;
+}
+
+
+
+.banner-fixed{
+height: 35vh;
+background-image: url("../images/banner-fixed.jpg") ;	
+margin:  48px 0;
+background-size: cover;
+background-attachment: fixed;
+}
+
+@media (min-width:  576px) {
+	.banner{
+		background-position: center;
+	}
+}
+

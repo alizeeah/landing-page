@@ -1,0 +1,76 @@
+@import url('banner.css'); 
+@import url("buttons.css");
+@import url(cards.css);
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('footer.css');
+@import url('banner2.css');
+@import url(cards2.css);
+
+body{
+	margin:  0;
+}
+a {
+	text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin:  0 auto;
+}
+
+
+.icons i {
+    font-size: 64px;
+    color : darkgray;
+    justify-self: center;
+}
+.icons {
+display: grid;
+grid-template-columns: 1fr;
+gap:  16px;
+}
+
+@media (min-width:  576px) {
+    .cards { 
+    grid-template-columns: 1fr 1fr;
+}
+    }
+@media (min-width: 768px) {
+    .icons {
+
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:  992px) {
+    .icons { grid-template-columns: 1fr 1fr 1fr; }
+}
+@media (min-width:  1200px) {
+    .icons{
+        grid-auto-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:  1400px) {
+    .icons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+h3{
+	color: #043170;
+	font-size: 30px;
+	}
+
+h4{
+	font-family: 'Sofia', cursive;
+	colo
+}
+p{
+	font-family: 'Oswald', sans-serif;
+}
+* {box-sizing:border-box}
+
