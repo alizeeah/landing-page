@@ -1,6 +1,6 @@
 @import url('banner.css'); 
-@import url("buttons.css");
-@import url(cards.css);
+@import url('buttons.css');
+@import url('cards.css');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('footer.css');
 @import url('banner2.css');
@@ -17,42 +17,6 @@ a {
   margin:  0 auto;
 }
 
-
-.icons i {
-    font-size: 64px;
-    color : darkgray;
-    justify-self: center;
-}
-.icons {
-display: grid;
-grid-template-columns: 1fr;
-gap:  16px;
-}
-
-@media (min-width:  576px) {
-    .cards { 
-    grid-template-columns: 1fr 1fr;
-}
-    }
-@media (min-width: 768px) {
-    .icons {
-
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-@media (min-width:  992px) {
-    .icons { grid-template-columns: 1fr 1fr 1fr; }
-}
-@media (min-width:  1200px) {
-    .icons{
-        grid-auto-columns: 1fr 1fr 1fr;
-    }
-}
-@media (min-width:  1400px) {
-    .icons {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
 
 article {
     min-height: 100%;
