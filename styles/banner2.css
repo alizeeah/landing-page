@@ -1,5 +1,5 @@
 .banner2 {
-	height: 100vh;
+	height: 90vh;
 	background-image: url("../images/hotel.jpg");
 	background-size:  cover;
 	background-position:  center;
@@ -10,12 +10,12 @@
 	align-items:  center;
 	text-align: center;
 }
-.banner h1, .banner h2{
+.banner2 h1, .banner h2{
 	text-shadow: 1px 1px 1px;
 }
 
 @media (min-width:  576px) {
-	.banner{
+	.banner2{
 		background-position: center;
 	}
 }
